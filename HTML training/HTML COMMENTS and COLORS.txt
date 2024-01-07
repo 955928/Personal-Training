@@ -1,0 +1,40 @@
+HTML COMMENT TAGS:
+
+<!-- Write your comments here --> 
+
+Can be used to hide content 
+eg:<p>This is a paragraph.</p>
+
+<!-- <p>This is another paragraph </p> -->
+
+<p>This is a paragraph too.</p>
+
+#Everything between the <!-- and the --> will be hidden from the display.
+eg: <p>This is a paragraph.</p>
+<!--
+<p>Look at this cool image:</p>
+<img border="0" src="pic_trulli.jpg" alt="Trulli">
+-->
+<p>This is a paragraph too.</p>
+
+Comments are also good for debugging HTML because you can comment out HTML lines of code, one at a time, to search for errors. 
+
+HIDE INLINE CONTENT : Comments can be used to hide parts in the middle of the HTML code. eg:<p>This <!-- great text --> is a paragraph.</p>
+
+ HTML COLORS:
+
+Color can be specified using color names.
+
+Background Color : eg <h1 style="background-color:DodgerBlue;">Hello World</h1>
+
+Text color : eg <h1 style="color:Tomato;">Hello World</h1>
+
+Border Color : eg<h1 style="border:2px solid Tomato;">Hello World</h1>
+
+Color Values : In HTML, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values.The following three <div> elements have their background color set with RGB, HEX, and HSL values respectively: 
+                                     eg: rgb(255, 99, 71)
+                                          #ff6347
+                                          hsl(9, 100%, 64%)   
+eg: <h1 style="background-color:rgb(255, 99, 71);">...</h1>
+<h1 style="background-color:#ff6347;">...</h1>
+<h1 style="background-color:hsl(9, 100%, 64%);">...</h1>

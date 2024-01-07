@@ -1,0 +1,46 @@
+HTML STYLE ATTRIBUTE : adds style to an element such as font, color, size and more.
+
+#Don't forget that the attribute is written within the starting tag with quotation marks eg<p style="color:red;">I am red</p>
+
+SYNTAX fro style attribute: <tagname style="property:value;">
+property-->CSS property/ value-->CSS value
+
+CSS BACKGROUND-COLOR PROPERTY:
+Defines background color for HTML element.
+eg<body style="background-color:powderblue;"> #backgropund color for an entire page in powder blue.
+
+
+CSS COLOR PROPERTY:
+Defines text color for an HTML element.
+
+CSS FONT-FAMILY PROPERTY:
+Defines font to be used for an HTML element.
+
+CSS FONT-SIZE PROPERTY:
+Defines the text size for an HTML element.
+
+CSS TEXT-ALIGN PROPERTY:
+Defines  the horizontal text alignment for an HTML element.
+
+
+
+HTML TEXT FORMATTING: designed to display special types of text(all have end tags):
+<b> - Bold text : defines bold text without any extra importance.
+
+<strong> - Important text : defines text with strong importance(typically displayed in bold).
+
+<i> - Italic text : defines a part of text in alternate voice/mood(typically displayed in italic).Often used to indicatea technical term, aphrase from another language, a thought, a ship name etc.
+
+<em> - Emphasized text : defines emphazied text(typically displayed in italic).Screen reader will pronounce words in <em> with an emphasis using verbal stress.
+ 
+<mark> - Marked text : defines text that should be marked or highlighted.
+
+<small> - Smaller text : defines smaller text.
+
+<del> - Deleted text : defines text that has been deleted from a doc. Browerser usually strike a line though deleted texte.
+
+<ins> -  Inserted text : defines a text that has been inserted into a doc. Browsers usually underline inserted text.
+
+<sub> - Subscript text : Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O
+
+<sup> - Superscript text : Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW[1]:

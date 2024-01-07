@@ -1,0 +1,23 @@
+HTML COMMENT TAGS:
+
+<!-- Write your comments here --> 
+
+Can be used to hide content 
+eg:<p>This is a paragraph.</p>
+
+<!-- <p>This is another paragraph </p> -->
+
+<p>This is a paragraph too.</p>
+
+#Everything between the <!-- and the --> will be hidden from the display.
+eg: <p>This is a paragraph.</p>
+<!--
+<p>Look at this cool image:</p>
+<img border="0" src="pic_trulli.jpg" alt="Trulli">
+-->
+<p>This is a paragraph too.</p>
+
+Comments are also good for debugging HTML because you can comment out HTML lines of code, one at a time, to search for errors. 
+
+HIDE INLINE CONTENT : Comments can be used to hide parts in the middle of the HTML code. eg:<p>This <!-- great text --> is a paragraph.</p>
+

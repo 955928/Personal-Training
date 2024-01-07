@@ -1,0 +1,28 @@
+ATTRIBUTES: provide additional info about HTML elements, always specified in start tag, usually comme in name/value pairs (name="value")
+
+href attribute of <a>: specifies the URL of the page the link goes to.
+
+src ATTRIBUTE: specifies the path to image in <img>. Two ways to specify url:
+           Absolute URL : Links to an external image on another website. eg:src="https://www.w3schools.com/images/img_girl.jpg"
+           Relative URL : Links to an image hosted within website. If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".
+           
+width and height attribute : specify the width and height of <img>
+ in pixels
+
+alt attribute : specify an alternate text for an image if cannot be displayed. Error could be due to src error; slow connection, or if user uses a screen reader.eg <img src="img_typo.jpg" alt="Girl with a jacket">.
+
+style attribute : used to add styles to element(color,font,size et +) eg<p style="color:red;">This is a red paragraph.</p>
+
+lang attribute : declares language of webpage in <html> tag (meant to assist search h engines and browers)eg 
+<html lang="en">
+
+Country codes can also be added to the language code in the lang attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country. eg:
+<html lang="en-US">
+
+title attribute : extra info about an element. It's value displayed as a tooltip whenn moving mouse over element. eg<p title="I'm a tooltip">This is a paragraph.</p>
+
+RECOMMENDED: Use lower cas attributes. Quote Attribute value eg <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+
+AND NOT
+
+<a href=https://www.w3schools.com/html/>Visit our HTML tutorial</a>

@@ -1,0 +1,52 @@
+HTML HEADINGS : Titles or subtitles you wish to display on a webpage.
+
+
+<h1 to h6> </h1 to /h6>
+
+Important to use to show doc structure. 
+
+#Use HTML HEADINGS for headings only and not to make them BIG or BOLD.
+
+They each have a default size, modified with the STYLE attribute, using CSS font-size property. eg:<h1 style="font-size:60px;">Heading 1</h1>
+
+
+HTML PARAPGRAPHS : defined by <p> html element and always starts on a new line.
+
+With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code/.In browsers how your html code is displayed  is automatic.
+
+HTML HORIZONTAL RULES : 
+<hr> tag defines a  thematic break in HTML page, often displayed as a horizontal rule/line. It is used to separate content/define a change in an HTML page. It is a an empty tag
+
+HTML LINE BREAKS:
+<br> defines a line break(a new line without starting a new paragraph). Also an empty tag as I stated in my earlier notes.
+eg:<p>This is<br>a paragraph<br>with line breaks.</p>
+
+OR
+
+HTML <pre> ELEMENT:
+The HTML <pre> element defines preformatted text.
+
+The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+eg: 
+<pre>
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</pre>
+
+AND NOT
+
+<p>
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</p>
+because even though the text is preformatted, when we will run the code it wil display in one continuous line.

@@ -1,0 +1,5 @@
+https://www.w3schools.com/python/python_ref_list.asp
+https://gayerie.dev/docs/python/python3/dict.html
+https://dev.to/ericlecodeur/la-cheat-sheet-complete-de-python-521p
+https://www.youtube.com/watch?v=h6jciR8K43E
+https://gayerie.dev/docs/python/python3/heritage.html

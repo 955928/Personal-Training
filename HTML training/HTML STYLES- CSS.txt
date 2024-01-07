@@ -1,0 +1,129 @@
+HTML STYLES-CSS
+
+CSS : CASCADING STYLE SHEETS
+#controls layout of multiple webpages all at once saving a lot of work
+
+With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!
+The word cascading means that a style applied to a parent element will also apply to all children elements within the parent
+
+Can be added to HTML docs in 3 ways:
+Inline - by using the style attribute inside HTML elements
+eg:<h1 style="color:blue;">A Blue Heading</h1>
+
+<p style="color:red;">A red paragraph.</p>
+
+Internal - by using a <style> element in the <head> section
+
+The following example sets the text color of ALL the <h1> elements (on that page) to blue, and the text color of ALL the <p> elements to red. In addition, the page will be displayed with a "powderblue" background color
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+
+External - by using a <link> element to link to an external CSS file. Used  to define the style of many HTML pages.
+
+Add a link to the <head> section of each HTML PAGE in order to use an external CSS.
+eg
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+#The external style sheet can be written in any text editor. The file must not contain any HTML code, and must be saved with a .css extension
+
+eg of how a "styles.css" file looks like body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+
+#With an external style sheet, you can change the look of an entire web site, by changing one file!
+
+CSS COLOR,FONTS and SIZES : 
+
+The CSS color property defines the text color to be used.
+
+The CSS font-family property defines the font to be used.
+
+The CSS font-size property defines the text size to be used.
+
+eg : <!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+p {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+CSS BORDER : Defines a border around an HTML element
+eg p {
+  border: 2px solid powderblue;
+}
+
+CSS PADDING : defines a padding(space) between text and the border.
+eg :p {
+  border: 2px solid powderblue;
+  padding: 30px;
+}
+
+CSS MARGIN :  defines a margin(space) outside the border.
+eg: p {
+  border: 2px solid powderblue;
+  margin: 50px;
+}
+
+LINK TO EXTERNAL CSS
+Used either with:
+
+Full URL : eg <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+
+or 
+
+Path Relative to current Webpage : eg<link rel="stylesheet" href="/html/styles.css">
+
+This example links to a style sheet located in the same folder as the current page :
+<link rel="stylesheet" href="styles.css">
+
+
+

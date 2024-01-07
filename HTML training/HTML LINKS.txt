@@ -1,0 +1,20 @@
+HTML LINKS - HYPERLINKS
+
+HTML LINKS are hyperlinks(jumps to another link when you click on it)
+#Doesn't have to be text.Can be an image or HTML elment
+
+Syntax: The HTML <a> tag defines a hyperlink
+
+eg<a href="url">link text</a>
+
+The most important attribute of the <a> element is the href attribute, which indicates the link's destination.The link text is the part that will be visible to the reader.
+
+eg<a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+
+By default in Browers they show up as:
+An unvisited link is underlined and blue
+A visited link is underlined and purple
+An active link is underlined and red
+
+#Can be styled with CSS for another look
+
